@@ -35,17 +35,17 @@ class MuslCross < Formula
   end
 
   resource "mpfr-4.0.2.tar.bz2" do
-    url "https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.bz2"
+    url "http://mirrors.ustc.edu.cn/gnu/mpfr/mpfr-4.0.2.tar.bz2"
     sha256 "c05e3f02d09e0e9019384cdd58e0f19c64e6db1fd6f5ecf77b4b1c61ca253acc"
   end
 
   resource "mpc-1.1.0.tar.gz" do
-    url "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz"
+    url "http://mirrors.ustc.edu.cn/gnu/mpc/mpc-1.1.0.tar.gz"
     sha256 "6985c538143c1208dcb1ac42cedad6ff52e267b47e5f970183a3e75125b43c2e"
   end
 
   resource "gmp-6.1.2.tar.bz2" do
-    url "https://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.bz2"
+    url "http://mirrors.ustc.edu.cn/gnu/gmp/gmp-6.1.2.tar.bz2"
     sha256 "5275bb04f4863a13516b2f39392ac5e272f5e1bb8057b18aec1c9b79d73d8fb2"
   end
 
@@ -55,7 +55,7 @@ class MuslCross < Formula
   end
 
   resource "binutils-2.33.1.tar.bz2" do
-    url "https://ftp.gnu.org/gnu/binutils/binutils-2.33.1.tar.bz2"
+    url "http://mirrors.ustc.edu.cn/gnu/binutils/binutils-2.33.1.tar.bz2"
     sha256 "0cb4843da15a65a953907c96bad658283f3c4419d6bcc56bf2789db16306adb2"
   end
 
@@ -65,7 +65,7 @@ class MuslCross < Formula
   end
 
   resource "gcc-9.2.0.tar.xz" do
-    url "https://ftp.gnu.org/gnu/gcc/gcc-9.2.0/gcc-9.2.0.tar.xz"
+    url "http://mirrors.ustc.edu.cn/gnu/gcc/gcc-9.2.0/gcc-9.2.0.tar.xz"
     sha256 "ea6ef08f121239da5695f76c9b33637a118dcf63e24164422231917fa61fb206"
   end
 
